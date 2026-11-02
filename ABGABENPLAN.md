@@ -24,6 +24,9 @@ Formate und Termine der Zwischenabgaben sind noch unklar und werden mit der Grup
 ## Erster Überblick
 Entwurf: `kapitel/00-ueberblick-produkt-kunde-markt.md`, Quellen: `recherche/quellen.md`
 
+## Geschäftsmodell und Pitch
+Geschäftsmodell (Stand Jannik, 2026-11-02): `kapitel/00c-geschaeftsmodell.md`; Elevator Pitch (Entwurf): `kapitel/00b-elevator-pitch.md`
+
 ## Kunden
 Entwurf: `kapitel/01a-kunden.md`, Personas: `kapitel/01b-personas.md`
 

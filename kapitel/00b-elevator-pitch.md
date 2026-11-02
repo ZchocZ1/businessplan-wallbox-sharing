@@ -1,6 +1,6 @@
 # Elevator Pitch (Entwurf 2)
 
-Status: **Entwurf 2 von Ben und Claude, 2026-11-02**, noch nicht mit der Gruppe abgestimmt. Grundlage: der neueste Stand des Geschäftsmodells (`Geschäftsmodell – Wallbox-Sharing-Plattform.docx`, Jannik, 2026-11-02) plus die Beschlüsse in `kapitel/`. Aufbau nach **AIDA** (Attention, Interest, Desire, Action). Alles in `[eckigen Klammern]` ist offen oder muss die Gruppe festlegen.
+Status: **Entwurf 2 von Ben und Claude, 2026-11-02**, noch nicht mit der Gruppe abgestimmt. Grundlage: der neueste Stand des Geschäftsmodells (`kapitel/00c-geschaeftsmodell.md`, aus dem Docx von Jannik, 2026-11-02) plus die Beschlüsse in `kapitel/`. Aufbau nach **AIDA** (Attention, Interest, Desire, Action). Alles in `[eckigen Klammern]` ist offen oder muss die Gruppe festlegen.
 
 ## 1 Pitch-Text, 60 Sekunden (ca. 190 Wörter)
 
