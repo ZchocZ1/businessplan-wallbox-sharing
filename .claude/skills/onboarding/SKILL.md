@@ -48,7 +48,7 @@ Erkläre, ohne die Dateien zu zitieren:
 2. Vor dem Arbeiten: `git switch main && git pull`.
 3. Ein Kapitel oder eine Datei gehört einer Person; Excel und PowerPoint bearbeitet immer nur eine Person gleichzeitig.
 4. Kleine Commits, deutsche Nachricht im Imperativ. Commits sind signiert.
-5. Änderung per Pull Request im Browser; eine andere Person gibt frei. Änderungen an `CLAUDE.md`, `.claude/` und `GIT-ZUSAMMENARBEIT.md` prüft zusätzlich ein Admin.
+5. Änderung per Pull Request im Browser; eine andere Person gibt frei. Änderungen an `CLAUDE.md`, `.claude/` und `GIT-ZUSAMMENARBEIT.md` prüft zusätzlich Ben oder Jannik.
 6. Keine Geheimnisse, keine privaten Daten, keine Klarnamen aus Interviews, keine lizenzierten PDFs ins Repo. Vor jedem Commit `git status` ansehen.
 7. Ist doch ein Geheimnis committet worden: sofort melden, nicht selbst die History umbauen.
 
@@ -58,7 +58,7 @@ Mit Zustimmung der Person:
 2. Lege `team/onboarding/<vorname>.md` an mit Vorname, Datum und dem Satz „Onboarding abgeschlossen“.
 3. `git add team/onboarding/<vorname>.md`, `git status` zeigen, Commit mit Nachricht `Onboarding <Vorname>` (signiert; nach der SSH-Passphrase fragen lassen, falls nötig).
 4. `git log --show-signature -1` zeigen. Meldet es „Good signature“ oder (bei fehlender allowed_signers-Datei) nur einen Hinweis darauf, ist das in Ordnung; entscheidend ist, dass der Commit einen `gpgsig`-Block hat (`git cat-file commit HEAD | head -5`).
-5. Nach Bestätigung `git push -u origin onboarding/<vorname>`. Der Push auf `main` muss abgelehnt werden (nicht versuchen, nur erklären).
+5. Nach Bestätigung `git push -u origin onboarding/<vorname>`. Auf `main` wird nie gepusht. GitHub verhindert das im Free-Plan nicht technisch; die Regel gilt als Gruppenregel (nicht ausprobieren, nur erklären).
 6. Gib den Link `https://github.com/ZchocZ1/businessplan-wallbox-sharing/pull/new/onboarding/<vorname>` aus. Die Person erstellt den Pull Request im Browser, schreibt in den Gruppenchat, dass jemand freigeben soll, und gibt selbst einen anderen Onboarding-Pull-Request frei, wenn einer offen ist.
 7. Nach dem Merge: `git switch main && git pull`, Branch löschen mit `git branch -d onboarding/<vorname>`.
 

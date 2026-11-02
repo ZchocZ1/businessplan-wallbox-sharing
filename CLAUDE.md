@@ -56,7 +56,7 @@ Aktiv (`.claude/`: `statusline.sh`, `jq`, Hooks `load-handoffs.sh` und `handoff-
 
 ## Git-Zusammenarbeit und Onboarding
 - **Onboarding zuerst:** Fehlt in diesem Ordner die Datei `.git/onboarding-done`, führe zu Beginn der Sitzung den Skill `onboarding` aus (`.claude/skills/onboarding/SKILL.md`), bevor du andere Aufgaben übernimmst.
-- Nie direkt auf `main`. Arbeit auf Branch, Übergabe per Pull Request im Browser mit Freigabe einer anderen Person.
+- Nie direkt auf `main`. Arbeit auf Branch, Übergabe per Pull Request im Browser mit Freigabe einer anderen Person. GitHub erzwingt das im Free-Plan nicht; es ist verbindliche Gruppenregel.
 - Nur committen oder pushen, wenn die Person es ausdrücklich verlangt. Nie `--force`, nie `--no-verify`, Commit-Signierung nie abschalten.
 - Nie private Schlüssel (`~/.ssh/id_*` ohne `.pub`), Tokens oder `.env` lesen, ausgeben oder committen. Vor jedem Commit `git status` prüfen; keine lizenzierten PDFs (`recherche/statista/`), keine personenbezogenen Interviewdaten.
-- Änderungen an `CLAUDE.md`, `.claude/` und `GIT-ZUSAMMENARBEIT.md` brauchen zusätzlich die Freigabe einer Admin-Person (Ben, Jannik), weil sie das Verhalten von Claude bei allen steuern.
+- Änderungen an `CLAUDE.md`, `.claude/` und `GIT-ZUSAMMENARBEIT.md` brauchen zusätzlich die Freigabe von Ben oder Jannik, weil sie das Verhalten von Claude bei allen steuern.
