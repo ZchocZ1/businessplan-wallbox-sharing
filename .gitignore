@@ -1,0 +1,24 @@
+# Betriebssystem und Editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Office-Sperr- und Temporärdateien
+~$*
+.~lock.*
+*.tmp
+
+# Geheimnisse (nie committen)
+.env
+.env.*
+*.pem
+*.key
+id_*
+*.p12
+*.pfx
+
+# Lizenzierte Quellen: nur lokal, Daten stehen in recherche/statista-auswertung.md
+recherche/statista/
+
+# Claude-Code-Konfiguration: enthält absolute Pfade und interne Übergaben, bleibt lokal
+.claude/

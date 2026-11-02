@@ -1,0 +1,11 @@
+* text=auto
+
+*.md text eol=lf
+
+# Nicht zusammenführbar: pro Datei arbeitet nur eine Person gleichzeitig
+*.xlsx binary
+*.pptx binary
+*.docx binary
+*.pdf binary
+*.png binary
+*.jpg binary
