@@ -20,5 +20,9 @@ id_*
 # Lizenzierte Quellen: nur lokal, Daten stehen in recherche/statista-auswertung.md
 recherche/statista/
 
-# Claude-Code-Konfiguration: enthält absolute Pfade und interne Übergaben, bleibt lokal
-.claude/
+# Claude-Code-Konfiguration: enthält absolute Pfade und interne Übergaben, bleibt lokal.
+# Einzige Ausnahme: der geteilte Onboarding-Skill.
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/onboarding/

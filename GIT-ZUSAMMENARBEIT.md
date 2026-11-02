@@ -59,7 +59,7 @@ Lassen sich nicht zusammenführen. Regeln:
 
 ## 5. Vorlage `.gitignore`
 
-Die gültige Fassung liegt als `.gitignore` im Projektordner. Wesentlich: `.claude/` komplett (absolute Pfade, interne Handoffs, Binary `jq`) und `recherche/statista/` (Lizenz) bleiben lokal; Geheimnisse (`.env*`, `*.pem`, `*.key`, `id_*`) und Office-Temporärdateien (`~$*`) sind ausgeschlossen.
+Die gültige Fassung liegt als `.gitignore` im Projektordner. Wesentlich: `.claude/` (absolute Pfade, interne Handoffs, Binary `jq`) mit der einzigen Ausnahme `.claude/skills/onboarding/` und `recherche/statista/` (Lizenz) bleiben lokal; Geheimnisse (`.env*`, `*.pem`, `*.key`, `id_*`) und Office-Temporärdateien (`~$*`) sind ausgeschlossen.
 
 ## 6. Offene Punkte
 

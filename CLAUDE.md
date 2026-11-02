@@ -4,7 +4,7 @@
 - Modul „Businessplan“; Gruppe von 6 Personen entwickelt einen vollständigen Businessplan zu einem selbst gewählten Produkt.
 - **Endprodukt:** vollständige Präsentation zum Plan (PowerPoint, `.pptx`, Deutsch) in `praesentation/`.
 - **Zwischenprodukte:** Abgaben zum Businessplan (Formate und Termine noch unklar, siehe `ABGABENPLAN.md`).
-- Zusammenarbeit der Gruppe über einen gemeinsamen Cloud-Ordner. Keine Git-Workflows voraussetzen; Dateinamen eindeutig und ohne Sonderzeichen halten.
+- Zusammenarbeit der Gruppe über ein **privates GitHub-Repository** (Regeln: `GIT-ZUSAMMENARBEIT.md`, Einstieg: `ONBOARDING.md`). Dateinamen eindeutig und ohne Sonderzeichen halten.
 - Sprache aller Texte, Dateien und Folien: **Deutsch**.
 
 ## Produkt
@@ -47,6 +47,16 @@ Schreibassistent und Rechercheur. Claude recherchiert, entwirft Kapitel, rechnet
 | `recherche/statista-auswertung.md` | Vollständige Daten der 6 Statista-PDFs (S-1 bis S-6). Die PDFs in `recherche/statista/` liegen nur lokal (Lizenz, nicht in Git); Daten immer aus dieser Datei zitieren |
 | `finanzen/` | Finanzplan und Berechnungen |
 | `praesentation/` | Endpräsentation (.pptx) |
+| `GIT-ZUSAMMENARBEIT.md` | Git-Regeln, Sicherheitsvorgaben, Einrichtung |
+| `ONBOARDING.md` | Einstieg für neue Teammitglieder |
+| `team/onboarding/` | Probe-Pull-Requests aus dem Onboarding |
 
 ## Handoff-System
 Aktiv (`.claude/`: `statusline.sh`, `jq`, Hooks `load-handoffs.sh` und `handoff-threshold-notify.sh`, Skill `handoff`). Handoffs liegen in `.claude/handoff_temp/`.
+
+## Git-Zusammenarbeit und Onboarding
+- **Onboarding zuerst:** Fehlt in diesem Ordner die Datei `.git/onboarding-done`, führe zu Beginn der Sitzung den Skill `onboarding` aus (`.claude/skills/onboarding/SKILL.md`), bevor du andere Aufgaben übernimmst.
+- Nie direkt auf `main`. Arbeit auf Branch, Übergabe per Pull Request im Browser mit Freigabe einer anderen Person.
+- Nur committen oder pushen, wenn die Person es ausdrücklich verlangt. Nie `--force`, nie `--no-verify`, Commit-Signierung nie abschalten.
+- Nie private Schlüssel (`~/.ssh/id_*` ohne `.pub`), Tokens oder `.env` lesen, ausgeben oder committen. Vor jedem Commit `git status` prüfen; keine lizenzierten PDFs (`recherche/statista/`), keine personenbezogenen Interviewdaten.
+- Änderungen an `CLAUDE.md`, `.claude/` und `GIT-ZUSAMMENARBEIT.md` brauchen zusätzlich die Freigabe einer Admin-Person (Ben, Jannik), weil sie das Verhalten von Claude bei allen steuern.
