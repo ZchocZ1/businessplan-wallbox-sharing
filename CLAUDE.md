@@ -30,6 +30,9 @@ Schreibassistent und Rechercheur. Claude recherchiert, entwirft Kapitel, rechnet
 - Entscheidungen der Gruppe (Dienstleistung, Preismodell, Rechtsform usw.) nicht eigenmächtig treffen, sondern Optionen mit Empfehlung vorlegen.
 - Konsistenz zwischen Kapiteln, Finanzplan und Präsentation prüfen (gleiche Zahlen, gleiche Begriffe).
 
+## Regel für Pitches (verbindlich)
+- Jeder Pitch (Elevator Pitch, Pitch-Folien der Endpräsentation, Kurzfassungen) **muss nach AIDA** aufgebaut sein: **A**ttention (Aufmerksamkeit), **I**nterest (Interesse), **D**esire (Verlangen), **A**ction (Handlungsaufforderung). Pitch-Texte kennzeichnen die vier Teile sichtbar (Vorbild: `kapitel/00b-elevator-pitch.md`).
+
 ## Regeln für Zahlen und Quellen
 - Jede Marktzahl mit **Quelle** (URL und Abrufdatum) in `recherche/` belegen.
 - Eigene Schätzungen sind **Annahmen** und stehen mit ID (A-nn) in `ANNAHMEN-GLOSSAR.md`; im Text klar als Annahme kennzeichnen.

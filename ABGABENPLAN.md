@@ -21,6 +21,12 @@ Formate und Termine der Zwischenabgaben sind noch unklar und werden mit der Grup
 | 8 | Risiken | Ben | offen | `kapitel/08-risiken.md` |
 | 9 | Meilensteine | Damian | offen | `kapitel/09-meilensteine.md` |
 
+## Aufgaben für die nächste Runde
+Eingetragen 2026-11-02 (Ben), noch nicht bearbeitet.
+| Nr. | Aufgabe | Verantwortlich | Status |
+|---|---|---|---|
+| N-1 | Für was genau zahlt der Kunde Geld, und was bekommt der Anbieter an Geld? (Erlös- und Preismodell klären; Grundlage: `kapitel/00c-geschaeftsmodell.md`) | _offen_ | offen |
+
 ## Erster Überblick
 Entwurf: `kapitel/00-ueberblick-produkt-kunde-markt.md`, Quellen: `recherche/quellen.md`
 
