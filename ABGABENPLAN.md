@@ -33,11 +33,14 @@ Entwurf: `kapitel/00-ueberblick-produkt-kunde-markt.md`, Quellen: `recherche/que
 ## Geschäftsmodell und Pitch
 Geschäftsmodell (Stand Jannik, 2026-11-02): `kapitel/00c-geschaeftsmodell.md`; Elevator Pitch (Entwurf): `kapitel/00b-elevator-pitch.md`
 
+## Beschlüsse Geschäftsmodell und Zielmarkt (verbindlich, 2026-11-09)
+`kapitel/00d-geschaeftsmodell-zielmarkt-beschluesse.md`
+
 ## Kunden
 Entwurf: `kapitel/01a-kunden.md`, Personas: `kapitel/01b-personas.md`
 
 ## Markt
-Entscheidungen (Zwischenstand): `kapitel/03a-markt-entscheidungen.md`; Statista-Auswertung: `recherche/statista-auswertung.md`
+Entscheidungen (Zwischenstand): `kapitel/03a-markt-entscheidungen.md`; Porter: `kapitel/03b-porter-five-forces.md`; SWOT und TOWS: `kapitel/03c-swot-analyse.md`; Marktgröße: `finanzen/marktgroesse-szenarien.md`; Statista-Auswertung: `recherche/statista-auswertung.md`
 
 ## Team
 | Name | Rolle/Schwerpunkt |
