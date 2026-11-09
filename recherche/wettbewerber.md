@@ -28,3 +28,11 @@ Stand der Recherche: 2026-10-26. Herstellerseiten direkt abgerufen, soweit errei
 | Schönere Oberfläche | Nicht prüfbar, kein belastbares Alleinstellungsmerkmal. |
 
 Nächster Schritt: Sharepnp und &Charge über App Store oder Handelsregister klären, Cocharge-Hardware-Kompatibilitätsseite lesen, App-Store-Seiten (Funktionen, Bewertungen) abrufen.
+
+## D Ergänzung 2026-11-09
+| Anbieter | Aussage | Quelle |
+|---|---|---|
+| **VoltExchange** (neu) | Community-Plattform, gestartet 29.07.2026, bundesweit (Web-App, iOS); **kein Geld**, sondern kWh-Guthaben (20 kWh Startguthaben); eine normale Steckdose genügt; Reservierung nicht beschrieben; Mieter sind Zielgruppe, müssen aber einen Ladepunkt beitragen; Betreiber Progressive Mind GmbH. **Fachpresse (S), Herstellerseite nicht abgerufen.** | https://www.electrive.net/2026/07/29/neue-plattform-voltexchange-ermoeglicht-privates-wallbox-sharing/ |
+| **AirElectric** (erneut geprüft) | Seite am 2026-11-09 bestätigt: kostenlos, werbefrei, Destination Charger (Hotels, Ferienhäuser, private Anbieter), API/White-Label; **keine Reservierung, keine Preise, keine Provision** auf der Seite. | https://airelectric.de |
+| **&Charge, ChargeAtFriends** | Laut Ratgeber (energiefluss24, 01.07.2026): &Charge ohne privates Sharing, ChargeAtFriends zum 31.05.2026 eingestellt. **Sekundärquelle, ungeprüft.** | https://www.energiefluss24.de/wallbox/sharing |
+Details und Folgen: `recherche/swot-recherche.md`, `kapitel/03c-swot-analyse.md`.

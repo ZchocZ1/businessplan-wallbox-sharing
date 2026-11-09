@@ -6,7 +6,7 @@ Alle Aussagen sind **Entscheidungen oder Annahmen der Gruppe**, nicht durch Date
 - Zweiseitiger Marktplatz: Anbieter (Wallbox-Besitzer) und Kunden (E-Auto-Fahrer).
 - **Entscheidung:** Zuerst Anbieter gewinnen (Gadget-Verteilung). Sobald genug Anbieter vorhanden sind, startet ein **Pilotprojekt mit beiden Seiten gleichzeitig**.
 - **Entscheidung:** **Zwei Pilotregionen parallel**, Stadt und ländlicher Raum, als Vergleich. Risiko: höherer Aufwand.
-- **Regionen (Beschluss 2026-10-26):** Stadt-Pilot **Region Mannheim bis Heidelberg**; Land-Pilot **Odenwald oder Kraichgau** (welche der beiden, ist noch offen; Entscheidung der Gruppe nach Kontakten und Anbieterdichte, Begründung mit Daten folgt).
+- **Regionen (Beschluss 2026-10-26):** Stadt-Pilot **Region Mannheim bis Heidelberg**; Land-Pilot zunächst **Odenwald oder Kraichgau**. **Update 2026-11-02:** Die Gruppe hat den **Odenwald** bestätigt (Angabe von Ben). Die Begründung mit Kontakten, Anbieterdichte und Daten steht weiter aus.
 
 ## 2 Anbieter
 - **Entscheidung:** Breit, alle privaten Wallbox-Besitzer, kein engerer Fokus. Der Fokus kann nach den ersten Daten geschärft werden.

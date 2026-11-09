@@ -25,10 +25,22 @@
 
 Kapitel liegen als eigene Dateien in `kapitel/` (z. B. `02-produkt-dienstleistung.md`).
 
+## Verbindliche Beschlüsse Geschäftsmodell und Zielmarkt (2026-11-09)
+Vollständig in `kapitel/00d-geschaeftsmodell-zielmarkt-beschluesse.md`; bei Widerspruch gilt diese Datei vor `kapitel/00c-geschaeftsmodell.md`. Kurzfassung:
+- Geschäftsfeld: Marktplatz für Wallbox-Kapazität (privat und gewerblich), keine eigene Ladeinfrastruktur. Ziele in drei Phasen 2027–2031, DACH nur Option.
+- Nutzenversprechen Fahrer: planbar und nah (reservieren) sowie verfügbar, wo Säulen fehlen; **kein Preisversprechen** ohne Beleg. Anbieter: rundum sorglos, Einnahmen nur als Möglichkeit.
+- Kunden: Fahrer ohne Wallbox an der Wohnung (Kern F1, Pilot Stadt und Land parallel); Anbieter alle Wallbox-Besitzer, Akquise-Schwerpunkt PV.
+- Gerät heißt „Gadget“ (kostenlos gegen Pfand). Zwei kWh-Preise (PV, Normal), Provision im Preis enthalten; Pilot-Erlöse: Provision und Reservierungsgebühr; Abos nur als Vermerk nach dem Pilot.
+- USP: Gadget + Reservierung, nie „erste“ oder „einzige“; Vorbehalt Eichrecht und Machbarkeit.
+- Zielmarkt: Marktgröße über Szenarien-Annahmen; Rendite zuerst Recherche, dann Unit Economics; Porter 5 Forces als zwei getrennte Analysen (Laden, Sharing-Plattformen).
+
 ## Rolle von Claude
 Schreibassistent und Rechercheur. Claude recherchiert, entwirft Kapitel, rechnet den Finanzplan und überarbeitet Texte; die Gruppe entscheidet und prüft.
 - Entscheidungen der Gruppe (Dienstleistung, Preismodell, Rechtsform usw.) nicht eigenmächtig treffen, sondern Optionen mit Empfehlung vorlegen.
 - Konsistenz zwischen Kapiteln, Finanzplan und Präsentation prüfen (gleiche Zahlen, gleiche Begriffe).
+
+## Regel für Pitches (verbindlich)
+- Jeder Pitch (Elevator Pitch, Pitch-Folien der Endpräsentation, Kurzfassungen) **muss nach AIDA** aufgebaut sein: **A**ttention (Aufmerksamkeit), **I**nterest (Interesse), **D**esire (Verlangen), **A**ction (Handlungsaufforderung). Pitch-Texte kennzeichnen die vier Teile sichtbar (Vorbild: `kapitel/00b-elevator-pitch.md`).
 
 ## Regeln für Zahlen und Quellen
 - Jede Marktzahl mit **Quelle** (URL und Abrufdatum) in `recherche/` belegen.
@@ -43,6 +55,7 @@ Schreibassistent und Rechercheur. Claude recherchiert, entwirft Kapitel, rechnet
 | `ANNAHMEN-GLOSSAR.md` | Begriffe und alle Markt-/Finanzannahmen |
 | `abgaben/` | Fertige Abgaben im Abgabeformat |
 | `kapitel/` | Arbeitsentwürfe der Kapitel |
+| `kapitel/00d-geschaeftsmodell-zielmarkt-beschluesse.md` | Verbindliche Beschlüsse zu Geschäftsmodell (I.1–I.7) und Zielmarkt (II.1–II.4) |
 | `recherche/` | Quellen, Marktdaten, Wettbewerbsanalysen |
 | `recherche/statista-auswertung.md` | Vollständige Daten der 6 Statista-PDFs (S-1 bis S-6). Die PDFs in `recherche/statista/` liegen nur lokal (Lizenz, nicht in Git); Daten immer aus dieser Datei zitieren |
 | `finanzen/` | Finanzplan und Berechnungen |

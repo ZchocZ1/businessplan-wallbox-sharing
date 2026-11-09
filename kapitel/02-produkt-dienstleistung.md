@@ -2,6 +2,8 @@
 
 Status: Entwurf, Entscheidungen der Gruppe vom 2026-10-19. Offene Punkte sind markiert.
 
+Neuester Stand zum Geschäftsmodell (Jannik, 2026-11-02): `kapitel/00c-geschaeftsmodell.md`. Abweichungen zu den Beschlüssen unten (Gerät, Versicherung, Solar, Erlöse) stehen dort in Abschnitt 13; die Gruppe klärt sie.
+
 ## 2.1 Produkt
 Digitale App für Wallbox-Sharing. Private Wallbox-Besitzer („Anbieter“) stellen ihre Wallbox zeitweise E-Auto-Fahrern („Kunden“) zur Verfügung. Ein Anbieter kann sich in derselben App auch als Kunde registrieren.
 
