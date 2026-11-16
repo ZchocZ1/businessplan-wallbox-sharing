@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Arial, sans-serif" font-size="13">
+<rect width="720" height="420" fill="#ffffff"/>
+<line x1="70" y1="360" x2="690" y2="360" stroke="#222" stroke-width="2"/>
+<line x1="70" y1="360" x2="70" y2="40" stroke="#222" stroke-width="2"/>
+<polygon points="690,360 678,354 678,366" fill="#222"/>
+<polygon points="70,40 64,52 76,52" fill="#222"/>
+<text x="380" y="395" text-anchor="middle">Zeit</text>
+<text x="20" y="200" text-anchor="middle" transform="rotate(-90 20 200)">Umsatz</text>
+<g stroke="#999" stroke-dasharray="4 4">
+<line x1="170" y1="60" x2="170" y2="360"/><line x1="300" y1="60" x2="300" y2="360"/>
+<line x1="430" y1="60" x2="430" y2="360"/><line x1="540" y1="60" x2="540" y2="360"/>
+</g>
+<path d="M70,350 C120,348 140,340 170,325 C220,290 260,120 330,95 C380,80 430,80 470,95 C510,110 540,150 560,200 C590,270 630,330 680,350" fill="none" stroke="#1565c0" stroke-width="3.5"/>
+<g text-anchor="middle" fill="#222">
+<text x="120" y="80">1 Einführung</text>
+<text x="235" y="80">2 Wachstum</text>
+<text x="365" y="80">3 Reife</text>
+<text x="485" y="80">4 Sättigung</text>
+<text x="615" y="80">5 Degeneration</text>
+</g>
+</svg>
